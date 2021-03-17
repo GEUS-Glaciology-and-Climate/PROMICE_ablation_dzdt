@@ -57,7 +57,7 @@ PROMICE_stations = [
                     ]
 
 for st_index,ws in enumerate(PROMICE_stations):
-    if st_index>=3:      
+    if st_index<=3:      
         site=ws[0]
         print('--------------------------------------  '+site)
         outliers_file='./outliers/'+site+'_outliers.csv'
